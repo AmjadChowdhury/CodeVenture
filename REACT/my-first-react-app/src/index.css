@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* external css */
+.card{
+  border: 2px solid hsl(0, 0%, 90%);
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgba(240, 240, 240, 0.9);
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  max-width: 250px;
+  display: inline-block;
+}
+.cardImg{
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card .cardTitle{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: hsl(0, 0%, 20%);
+}
+.card .cardText{
+  font-family: Arial, sans-serif;
+  color: hsl(0, 0%, 30%);
+}
+
+.button{
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 2px;
+  border: none;
+  cursor: pointer;
+}
+
+.logIn{
+  background-color: hsl(120, 98%, 50%);
+  color: white;
+  border: 2px solid hsl(0, 5%, 91%);
+  padding: 10px;
+}
+.notLogIn{
+  background-color: hsl(10, 98%, 50%);
+  color: white;
+  border: 2px solid hsl(0, 5%, 91%);
+  padding: 10px;
+}
