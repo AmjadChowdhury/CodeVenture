@@ -13,6 +13,11 @@ import OnChangeEvent from "./OnchangeEvent/OnChangeEvent"
 import UpdateObject from "./Update Object In State/UpdateObject"
 import UpdateArray from "./UpdateArray/UpdateArray"
 import UpdateArrayOfObject from "./UpdateArrayOfObject/UpdateArrayOfObject"
+import ToDo from "./ToDoList/ToDo"
+import DigitalClock from "./DigitalClock/DigitalClock"
+import ComponentA from "./useContext Hook/ComponentA"
+import StopWatch from "./StopWatchApp/StopWatch"
+import UseRef from "./useRef/UseRef"
 
 function App() {
   
@@ -29,11 +34,16 @@ function App() {
       <ListParent/>
       <ClickEvent/>
       <UseStateHook/>
+      <UseRef/>
       <OnChangeEvent/>
       <ColorPickerApp/>
       <UpdateObject/>
       <UpdateArray/>
       <UpdateArrayOfObject/>
+      <ToDo/>
+      <DigitalClock/>
+      <ComponentA/>
+      <StopWatch/>
       <Footer/>
     </>
   )
